@@ -10,15 +10,18 @@ body {
 .container{
     background-image: url("images/ep_naturalwhite.png");
     align-content: center;
+    margin-bottom: 75px;
 }
 .gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 5vw);
-    grid-gap: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    grid-gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 50px;
+    /* margin-bottom: 50px; */
+    height: 85vh;
 }
 .gallery__img {
     width: 100%;
@@ -71,4 +74,36 @@ body {
 .gallery__img:hover {
     opacity: 0;
     transition-duration: 1500ms;
+}
+.card-title{
+    align-content: center;
+    text-align: center;
+}
+.word-blanks{
+    align-content: center;
+    text-align: center;
+}
+.right{
+    align-content: center;
+    text-align: center;
+}
+.wrong{
+    align-content: center;
+    text-align: center;
+}
+.wins{
+    align-content: center;
+    text-align: center;
+}
+.loss{
+    align-content: center;
+    text-align: center;
+}
+h3 {
+    align-content: center;
+    text-align: center;
+}
+span {
+    background-image: url(images/black_paper.png);
+    color: white;
 }
